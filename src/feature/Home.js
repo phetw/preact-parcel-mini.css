@@ -1,9 +1,10 @@
 import { h, render, Component } from 'preact';
+import './Home.css';
 
 export default class Home extends Component {
   render() {
     return (
-      <div class="card" style="margin:2rem auto;">
+      <section class="card">
         <h1>Home</h1>
         <div class="section">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -12,7 +13,7 @@ export default class Home extends Component {
           1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
           Aldus PageMaker including versions of Lorem Ipsum.
         </div>
-      </div>
+      </section>
     );
   }
 }
